@@ -1,0 +1,15 @@
+body {
+  background-color: gray;
+}
+
+.labels {
+  background: transparent;
+  border: none;
+  font-size: 36px;
+  width: 100%;
+  color: white;
+}
+
+.fields {
+  
+}
