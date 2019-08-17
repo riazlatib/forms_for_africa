@@ -1,5 +1,6 @@
 body {
   background-color: gray;
+  font-family: sans-serif;
 }
 
 .labels {
@@ -14,8 +15,26 @@ body {
 
 .fields {
   border: 1px solid rgb(255,255,255, 0.2);
-  height: 40px;
   background-color: rgb(255,255,255, 0.1);
   margin-left: 10px;
   margin-right: 10px;
+  padding: 10px;
+}
+
+.field_values {
+  width: 50%;
+  color: rgb(255,255,255,0.5);
+  border: 1px solid rgb(255,255,255, 0.2);
+}
+
+.field_details {
+  width: 40%;
+  color: rgb(255,255,255,0.5);
+}
+
+.field_value_inputs {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  color: rgb(255,255,255, 0.9);
 }
