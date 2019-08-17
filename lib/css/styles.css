@@ -38,3 +38,19 @@ body {
   font-size: 18px;
   color: rgb(255,255,255, 0.9);
 }
+
+#generate_pdf {
+  width: 100%;
+  font-size: 36px;
+  margin: 10px 0px 0px 0px;
+  background: transparent;
+  border: 1px solid lime;
+  border-radius: 2px;
+  color: lime;
+  cursor: pointer;
+}
+
+#generate_pdf:hover {
+  color: steelblue;
+  border: 1px solid steelblue;
+}
