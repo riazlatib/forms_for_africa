@@ -8,8 +8,14 @@ body {
   font-size: 36px;
   width: 100%;
   color: white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .fields {
-  
+  border: 1px solid rgb(255,255,255, 0.2);
+  height: 40px;
+  background-color: rgb(255,255,255, 0.1);
+  margin-left: 10px;
+  margin-right: 10px;
 }
