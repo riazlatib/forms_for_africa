@@ -41,9 +41,18 @@
     </div>
 
     <button id="generate_pdf" onclick="generate()">Generate PDF</button>
-    <div id="display_text"></div>
 
-    <div id="preview_pdf"></div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div id="div_header">Preview</div>
+        <div id="div_content">
+          <iframe id="pdf_preview" type="application/pdf"></iframe>
+        </div>
+      </div>
+    </div>
   </body>
   <script type="application/javascript" src="lib/js/jspdf.js"></script>
   <script type="application/javascript" src="lib/js/app.js"></script>
