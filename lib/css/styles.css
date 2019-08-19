@@ -54,3 +54,11 @@ body {
   color: steelblue;
   border: 1px solid steelblue;
 }
+
+/* POPUP MODAL */
+#preview_pdf {
+  border: 1px solid white;
+  height: 30px;
+  background-color: white;
+  border-radius: 2px;
+}
